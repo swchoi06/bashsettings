@@ -24,6 +24,10 @@ alias l='ls -CF'
 alias rm='rm -i'
 alias mv='mv -i'
 
+# Custom alias
+alias sshcargo='ssh swchoi06@211.249.50.61'
+alias sshcamdal='ssh swchoi06@211.249.50.56'
+
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxcxegedabagacad
 export LS_OPTIONS='--color=auto'
