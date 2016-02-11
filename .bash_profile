@@ -28,6 +28,11 @@ alias mv='mv -i'
 alias sshcargo='ssh swchoi06@211.249.50.61'
 alias sshcamdal='ssh swchoi06@211.249.50.56'
 
+# Disable internal keybaord
+alias ukyb 'sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/'
+alias lkyb 'sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/'
+
+
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxcxegedabagacad
 export LS_OPTIONS='--color=auto'
